@@ -19,8 +19,14 @@ public class Metodos {
          */
         utilidades uso = new utilidades();//Clase + nombre = new + clase()<- Constructor vacio
 
+        /*
         uso.saludar();//De esta forma hacemos la llamada al metodo
         System.out.println("La suma de los dos numeros es: " + uso.sumar2Numeros(2, 3));
+         */
+        //---------------------------------------------------------------------------------
+        int resultado = uso.sumarNumeros(1, 3);
+
+        System.out.println("Resultado: " + resultado);
     }
 
 }
